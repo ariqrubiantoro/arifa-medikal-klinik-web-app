@@ -56775,33 +56775,33 @@ if(m.c==="Tidak")n.k3=n.k2=n.k1=": -"
 else{m=m.e
 p=m.r
 p.toString
-n.k1=p+" Tahun"
+n.k1=": "+p+" Tahun"
 p=m.w
 p.toString
-n.k2=p+" Gelas/hari"
+n.k2=": "+p+" Gelas/hari"
 m=m.x
 m.toString
-n.k3=m+" Botol/hari"}}else{p=m.d
+n.k3=": "+m+" Botol/hari"}}else{p=m.d
 o=p.r
 o.toString
-n.fy=o+" Tahun"
+n.fy=": "+o+" Tahun"
 o=p.w
 o.toString
-n.go=o+" Batang/hari"
+n.go=": "+o+" Batang/hari"
 p=p.x
 p.toString
-n.id=p+" Bungkus/hari"
+n.id=": "+p+" Bungkus/hari"
 if(m.c==="Tidak")n.k3=n.k2=n.k1=": -"
 else{m=m.e
 p=m.r
 p.toString
-n.k1=p+" Tahun"
+n.k1=": "+p+" Tahun"
 p=m.w
 p.toString
-n.k2=p+" Gelas/hari"
+n.k2=": "+p+" Gelas/hari"
 m=m.x
 m.toString
-n.k3=m+" Botol/hari"}}return A.P(null,r)}})
+n.k3=": "+m+" Botol/hari"}}return A.P(null,r)}})
 return A.Q($async$$0,r)},
 $S:26}
 A.auM.prototype={
