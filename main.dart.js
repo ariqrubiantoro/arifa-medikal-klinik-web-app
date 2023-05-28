@@ -65047,19 +65047,18 @@ return A.C(new A.c6(A.C(A.bw(A.by(this.a),B.K),s,s,s,s,s)),r,80,s,s,1000)},
 $S:7}
 A.aL7.prototype={
 $1(a6){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=null,a="c. Asam lambung",a0="d. Alergi",a1="   a). Lama",a2="   b). Banyak",a3=t.o,a4=A.X(A.a([A.n("ANAMNESA DAN PEMERIKSAAN FISIK",A.m(b,b,b,b,b,b,b,b,b,B.j,b,b,16,b,B.I,b,!0,b,b,b,b),b)],a3),B.A,B.GP),a5=A.bg(A.dC(B.ak),b)
-a5=A.C(A.n("Nama",A.m(b,b,b,b,b,b,b,b,b,B.j,b,b,10,b,b,b,!0,b,b,b,b),b),a5,20,b,new A.aY(5,2,0,2),120)
+a5=A.C(A.n("Nama",A.m(b,b,b,b,b,b,b,b,b,B.j,b,b,10,b,b,b,!0,b,b,b,b),b),a5,25,b,new A.aY(5,2,0,2),120)
 s=A.bg(A.dC(B.ak),b)
 r=this.a
 q=r.e
 p=q.b
-p.toString
-s=A.C(A.n(p,A.m(b,b,b,b,b,b,b,b,b,B.j,b,b,10,b,b,b,!0,b,b,b,b),b),s,20,b,new A.aY(5,2,0,2),120)
+s=A.C(A.C(A.n(p,A.m(b,b,b,b,b,b,b,b,b,B.j,b,b,p.length<15?10:8,b,b,b,!0,b,b,b,b),b),b,b,b,b,b),s,25,b,new A.aY(5,2,0,2),120)
 p=A.bg(A.dC(B.ak),b)
-p=A.C(A.n("Tgl. Pemeriksaan",A.m(b,b,b,b,b,b,b,b,b,B.j,b,b,10,b,b,b,!0,b,b,b,b),b),p,20,b,new A.aY(5,2,0,2),100)
+p=A.C(A.n("Tgl. Pemeriksaan",A.m(b,b,b,b,b,b,b,b,b,B.j,b,b,10,b,b,b,!0,b,b,b,b),b),p,25,b,new A.aY(5,2,0,2),100)
 o=A.bg(A.dC(B.ak),b)
 q=q.f
 q.toString
-o=A.X(A.a([a5,s,p,A.C(A.n(q,A.m(b,b,b,b,b,b,b,b,b,B.j,b,b,10,b,b,b,!0,b,b,b,b),b),o,20,b,new A.aY(5,2,0,2),240)],a3),B.A,B.u)
+o=A.X(A.a([a5,s,p,A.C(A.n(q,A.m(b,b,b,b,b,b,b,b,b,B.j,b,b,10,b,b,b,!0,b,b,b,b),b),o,25,b,new A.aY(5,2,0,2),240)],a3),B.A,B.u)
 q=A.bg(A.dC(B.ak),b)
 q=A.C(A.n("Jenis Kelamin",A.m(b,b,b,b,b,b,b,b,b,B.j,b,b,10,b,b,b,!0,b,b,b,b),b),q,20,b,new A.aY(5,2,0,2),120)
 p=A.bg(A.dC(B.ak),b)
