@@ -66802,7 +66802,7 @@ s=2
 return A.o(n.oF(q.a.c),$async$b1)
 case 2:m=b
 q.e=m
-m=m.ax
+m=m.f
 m.toString
 p=A.bs4(m)
 q.aI=A.a8K("dd MMM yyyy",null).tr(p)
@@ -67806,74 +67806,96 @@ $1(a){var s=null,r=A.bi(s,s)
 return A.z(new A.bD(A.z(A.b7(A.b8(this.a),B.K),s,s,s,s,s)),r,80,s,s,1000)},
 $S:6}
 A.aP1.prototype={
-$1(a){var s,r,q,p,o,n,m,l,k=null,j=A.n("b.",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),i=A.n("Paru",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),h=A.z(A.n("(a) Inspeksi",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,100),g=this.a,f=g.ax.b,e=t.o
-f=A.V(A.a([h,A.z(A.n("Kanan : "+A.h(f.a),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(f.b),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],e),B.A,B.u)
-h=A.z(A.n("(b) Palpasi",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,100)
-s=g.ax.b
-s=A.V(A.a([h,A.z(A.n("Kanan : "+A.h(s.c),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(s.d),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],e),B.A,B.u)
-h=A.z(A.n("(c) Perkusi",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,100)
-r=g.ax.b
-r=A.V(A.a([h,A.z(A.n("Kanan : "+A.h(r.e),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(r.f),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],e),B.A,B.u)
-h=A.z(A.n("(d) Auskultasi",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,100)
-q=g.ax.b
-q=A.V(A.a([new A.a5(59,k,k),j,new A.a5(10,k,k),A.aQ(A.a([i,f,s,r,A.V(A.a([h,A.z(A.n("Kanan : "+A.h(q.r),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(q.w),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],e),B.A,B.u)],e),B.E,B.u)],e),B.E,B.u)
-h=A.n("5.",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k)
+$1(a){var s,r,q,p,o,n,m,l,k=null,j="Tidak ada pemeriksaan",i=A.n("b.",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),h=A.n("Paru",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),g=A.z(A.n("(a) Inspeksi",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,100),f=this.a,e=f.ax.b,d=t.o
+e=A.V(A.a([g,A.z(A.n("Kanan : "+A.h(e.a),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(e.b),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],d),B.A,B.u)
+g=A.z(A.n("(b) Palpasi",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,100)
+s=f.ax.b
+s=A.V(A.a([g,A.z(A.n("Kanan : "+A.h(s.c),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(s.d),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],d),B.A,B.u)
+g=A.z(A.n("(c) Perkusi",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,100)
+r=f.ax.b
+r=A.V(A.a([g,A.z(A.n("Kanan : "+A.h(r.e),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(r.f),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],d),B.A,B.u)
+g=A.z(A.n("(d) Auskultasi",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,100)
+q=f.ax.b
+q=A.V(A.a([new A.a5(59,k,k),i,new A.a5(10,k,k),A.aQ(A.a([h,e,s,r,A.V(A.a([g,A.z(A.n("Kanan : "+A.h(q.r),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(q.w),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],d),B.A,B.u)],d),B.E,B.u)],d),B.E,B.u)
+g=A.n("5.",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k)
 r=A.n("Pemeriksaan Rongga Perut",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k)
-s=A.V(A.a([A.z(A.n("a. Inspeksi",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(g.ay.a),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)],e),B.A,B.u)
-f=A.V(A.a([A.z(A.n("b. Perkusi",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(g.ay.b),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)],e),B.A,B.u)
-i=A.V(A.a([A.z(A.n("c. Auskultasi",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(g.ay.c),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)],e),B.A,B.u)
-j=A.V(A.a([A.z(A.n("d. Hati",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(g.ay.d),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)],e),B.A,B.u)
-p=A.V(A.a([A.z(A.n("e. Limpa",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(g.ay.e),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)],e),B.A,B.u)
+s=A.V(A.a([A.z(A.n("a. Inspeksi",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(f.ay.a),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)],d),B.A,B.u)
+e=A.V(A.a([A.z(A.n("b. Perkusi",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(f.ay.b),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)],d),B.A,B.u)
+h=A.V(A.a([A.z(A.n("c. Auskultasi",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(f.ay.c),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)],d),B.A,B.u)
+i=A.V(A.a([A.z(A.n("d. Hati",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(f.ay.d),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)],d),B.A,B.u)
+p=A.V(A.a([A.z(A.n("e. Limpa",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(f.ay.e),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)],d),B.A,B.u)
 o=A.z(A.n("f. Ginjal Kiri",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
-n=g.ay
-n=A.V(A.a([o,A.z(A.n(": "+A.h(n.f),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n("Ballotement : "+A.h(n.r),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],e),B.A,B.u)
+n=f.ay
+n=A.V(A.a([o,A.z(A.n(": "+A.h(n.f),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n("Ballotement : "+A.h(n.r),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],d),B.A,B.u)
 o=A.z(A.n("g. Ginjal Kanan",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
-m=g.ay
-m=A.V(A.a([new A.a5(35,k,k),h,new A.a5(10,k,k),A.aQ(A.a([r,s,f,i,j,p,n,A.V(A.a([o,A.z(A.n(": "+A.h(m.w),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n("Ballotement : "+A.h(m.x),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],e),B.A,B.u),A.V(A.a([A.z(A.n("h. Hernia",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(g.ay.y),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)],e),B.A,B.u),A.V(A.a([A.z(A.n("i. Tumor",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(g.ay.z),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)],e),B.A,B.u),A.V(A.a([A.z(A.n("j. Lain - lain",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(g.ay.Q),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)],e),B.A,B.u)],e),B.E,B.u)],e),B.E,B.u)
-o=A.V(A.a([new A.a5(35,k,k),A.n("6.",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),new A.a5(10,k,k),A.aQ(A.a([A.n("Pemeriksaan Gentalia dan Anorektal",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),A.V(A.a([A.z(A.n("a. Hernia",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(g.ch.a),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],e),B.A,B.u),A.V(A.a([A.z(A.n("b. Haemorhoid",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(g.ch.b),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],e),B.A,B.u),A.V(A.a([A.z(A.n("c. Sikatriks",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(g.ch.c),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],e),B.A,B.u),A.V(A.a([A.z(A.n("d. Spincter",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(g.ch.d),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],e),B.A,B.u),A.V(A.a([A.z(A.n("e. Untuk laki-laki",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n("",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],e),B.A,B.u),A.V(A.a([A.z(A.n("   - Efidymis/testis/prostat",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(g.ch.e),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],e),B.A,B.u),A.V(A.a([A.z(A.n("   - Ekskresi",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(g.ch.f),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],e),B.A,B.u)],e),B.E,B.u)],e),B.E,B.u)
-n=A.n("7.",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k)
+m=f.ay
+m=A.V(A.a([new A.a5(35,k,k),g,new A.a5(10,k,k),A.aQ(A.a([r,s,e,h,i,p,n,A.V(A.a([o,A.z(A.n(": "+A.h(m.w),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n("Ballotement : "+A.h(m.x),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],d),B.A,B.u),A.V(A.a([A.z(A.n("h. Hernia",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(f.ay.y),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)],d),B.A,B.u),A.V(A.a([A.z(A.n("i. Tumor",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(f.ay.z),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)],d),B.A,B.u),A.V(A.a([A.z(A.n("j. Lain - lain",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(f.ay.Q),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)],d),B.A,B.u)],d),B.E,B.u)],d),B.E,B.u)
+o=A.n("6.",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k)
+n=A.n("Pemeriksaan Gentalia dan Anorektal",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k)
+p=A.z(A.n("a. Hernia",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
+i=f.ch.a
+if(i==="")i=j
+i=A.V(A.a([p,A.z(A.n(": "+A.h(i),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],d),B.A,B.u)
+p=A.z(A.n("b. Haemorhoid",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
+h=f.ch.b
+if(h==="")h=j
+h=A.V(A.a([p,A.z(A.n(": "+A.h(h),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],d),B.A,B.u)
+p=A.z(A.n("c. Sikatriks",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
+g=f.ch.c
+if(g==="")g=j
+g=A.V(A.a([p,A.z(A.n(": "+A.h(g),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],d),B.A,B.u)
+p=A.z(A.n("d. Spincter",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
+e=f.ch.d
+if(e==="")e=j
+e=A.V(A.a([p,A.z(A.n(": "+A.h(e),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],d),B.A,B.u)
+p=A.V(A.a([A.z(A.n("e. Untuk laki-laki",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n("",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],d),B.A,B.u)
+s=A.z(A.n("   - Efidymis/testis/prostat",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
+r=f.ch.e
+if(r==="")r=j
+r=A.V(A.a([new A.a5(35,k,k),o,new A.a5(10,k,k),A.aQ(A.a([n,i,h,g,e,p,A.V(A.a([s,A.z(A.n(": "+A.h(r),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],d),B.A,B.u),A.V(A.a([A.z(A.n("   - Ekskresi",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n(": "+A.h(f.ch.f),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200)],d),B.A,B.u)],d),B.E,B.u)],d),B.E,B.u)
+s=A.n("7.",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k)
 p=A.n("Pemeriksaan Anggota Gerak",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k)
-j=A.z(A.n("a. Atas kiri / kanan",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
-i=g.CW
-i=A.V(A.a([j,A.z(A.n("Kanan : "+A.h(i.a),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(i.b),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],e),B.A,B.u)
-j=A.z(A.n("b. Bawah kiri / kanan",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
-f=g.CW
-f=A.V(A.a([j,A.z(A.n("Kanan : "+A.h(f.c),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(f.d),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],e),B.A,B.u)
-j=A.z(A.n("c. Sembab/Oedem",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
-s=g.CW
-s=A.V(A.a([j,A.z(A.n("Kanan : "+A.h(s.e),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(s.f),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],e),B.A,B.u)
-j=A.z(A.n("d. Cacat",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
-r=g.CW
-r=A.V(A.a([new A.a5(35,k,k),n,new A.a5(10,k,k),A.aQ(A.a([p,i,f,s,A.V(A.a([j,A.z(A.n("Kanan : "+A.h(r.r),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(r.w),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],e),B.A,B.u)],e),B.E,B.u)],e),B.E,B.u)
-j=A.n("8.",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k)
-s=A.n("Pemeriksaan Refleks",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k)
-f=A.V(A.a([new A.a5(340,k,k),A.z(A.n("Kanan",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,65),A.z(A.n("Kiri",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,50)],e),B.A,B.aGA)
-i=A.z(A.n("a. Pupil",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,70)
-p=g.cx.a
-p=A.V(A.a([i,A.z(A.n(": "+A.h(p.a),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n("Biceps",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,80),A.z(A.n(":",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,50),A.z(A.n(A.h(p.b),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),k,k,k,k,55),A.z(A.n(A.h(p.c),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),k,k,k,k,50)],e),B.A,B.u)
-i=A.z(A.n("b. Patella",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,70)
-n=g.cx.b
-n=A.V(A.a([i,A.z(A.n(": "+A.h(n.a),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n("Triceps",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,80),A.z(A.n(":",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,50),A.z(A.n(A.h(n.b),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),k,k,k,k,55),A.z(A.n(A.h(n.c),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),k,k,k,k,50)],e),B.A,B.u)
-i=A.z(A.n("c. Achiles",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,70)
-h=g.cx.c
-h=A.V(A.a([new A.a5(35,k,k),j,new A.a5(10,k,k),A.aQ(A.a([s,f,p,n,A.V(A.a([i,A.z(A.n(": "+A.h(h.a),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n("Babinsky",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,80),A.z(A.n(":",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,50),A.z(A.n(A.h(h.b),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),k,k,k,k,55),A.z(A.n(A.h(h.c),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),k,k,k,k,50)],e),B.A,B.u)],e),B.E,B.u)],e),B.E,B.u)
-i=A.n("9.",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k)
-n=A.n("Pemeriksaan Kelenjar Getah Bening",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k)
+e=A.z(A.n("a. Atas kiri / kanan",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
+g=f.CW
+g=A.V(A.a([e,A.z(A.n("Kanan : "+A.h(g.a),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(g.b),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],d),B.A,B.u)
+e=A.z(A.n("b. Bawah kiri / kanan",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
+h=f.CW
+h=A.V(A.a([e,A.z(A.n("Kanan : "+A.h(h.c),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(h.d),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],d),B.A,B.u)
+e=A.z(A.n("c. Sembab/Oedem",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
+i=f.CW
+i=A.V(A.a([e,A.z(A.n("Kanan : "+A.h(i.e),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(i.f),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],d),B.A,B.u)
+e=A.z(A.n("d. Cacat",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
+n=f.CW
+n=A.V(A.a([new A.a5(35,k,k),s,new A.a5(10,k,k),A.aQ(A.a([p,g,h,i,A.V(A.a([e,A.z(A.n("Kanan : "+A.h(n.r),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(n.w),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],d),B.A,B.u)],d),B.E,B.u)],d),B.E,B.u)
+e=A.n("8.",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k)
+i=A.n("Pemeriksaan Refleks",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k)
+h=A.V(A.a([new A.a5(340,k,k),A.z(A.n("Kanan",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,65),A.z(A.n("Kiri",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,50)],d),B.A,B.aGA)
+g=A.z(A.n("a. Pupil",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,70)
+p=f.cx.a
+p=A.V(A.a([g,A.z(A.n(": "+A.h(p.a),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n("Biceps",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,80),A.z(A.n(":",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,50),A.z(A.n(A.h(p.b),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),k,k,k,k,55),A.z(A.n(A.h(p.c),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),k,k,k,k,50)],d),B.A,B.u)
+g=A.z(A.n("b. Patella",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,70)
+s=f.cx.b
+s=A.V(A.a([g,A.z(A.n(": "+A.h(s.a),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n("Triceps",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,80),A.z(A.n(":",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,50),A.z(A.n(A.h(s.b),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),k,k,k,k,55),A.z(A.n(A.h(s.c),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),k,k,k,k,50)],d),B.A,B.u)
+g=A.z(A.n("c. Achiles",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,70)
+o=f.cx.c
+o=A.V(A.a([new A.a5(35,k,k),e,new A.a5(10,k,k),A.aQ(A.a([i,h,p,s,A.V(A.a([g,A.z(A.n(": "+A.h(o.a),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150),A.z(A.n("Babinsky",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,80),A.z(A.n(":",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,50),A.z(A.n(A.h(o.b),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),k,k,k,k,55),A.z(A.n(A.h(o.c),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k),k,k,k,k,50)],d),B.A,B.u)],d),B.E,B.u)],d),B.E,B.u)
+g=A.n("9.",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k)
+s=A.n("Pemeriksaan Kelenjar Getah Bening",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.H,k,!0,k,k,k,k),k)
 p=A.z(A.n("a. Cervical",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
-f=g.cy
-f=A.V(A.a([p,A.z(A.n("Kanan : "+A.h(f.b),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(f.a),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],e),B.A,B.u)
+h=f.cy
+h=A.V(A.a([p,A.z(A.n("Kanan : "+A.h(h.b),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(h.a),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],d),B.A,B.u)
 p=A.z(A.n("b. Axila",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
-s=g.cy
-s=A.V(A.a([p,A.z(A.n("Kanan : "+A.h(s.d),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(s.c),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],e),B.A,B.u)
+i=f.cy
+i=A.V(A.a([p,A.z(A.n("Kanan : "+A.h(i.d),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(i.c),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],d),B.A,B.u)
 p=A.z(A.n("c. Supra Clavicula",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
-j=g.cy
-j=A.V(A.a([p,A.z(A.n("Kanan : "+A.h(j.f),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(j.e),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],e),B.A,B.u)
+e=f.cy
+e=A.V(A.a([p,A.z(A.n("Kanan : "+A.h(e.f),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(e.e),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],d),B.A,B.u)
 p=A.z(A.n("d. Infra Clavicula",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
-l=g.cy
-l=A.V(A.a([p,A.z(A.n("Kanan : "+A.h(l.w),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(l.r),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],e),B.A,B.u)
+l=f.cy
+l=A.V(A.a([p,A.z(A.n("Kanan : "+A.h(l.w),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(l.r),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],d),B.A,B.u)
 p=A.z(A.n("e. Inguinal",A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,150)
-g=g.cy
-return A.a([A.z(A.aQ(A.a([q,new A.a5(k,10,k),m,new A.a5(k,10,k),o,new A.a5(k,10,k),r,new A.a5(k,10,k),h,new A.a5(k,10,k),A.V(A.a([new A.a5(35,k,k),i,new A.a5(10,k,k),A.aQ(A.a([n,f,s,j,l,A.V(A.a([p,A.z(A.n("Kanan : "+A.h(g.y),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(g.x),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],e),B.A,B.u)],e),B.E,B.u)],e),B.E,B.u),new A.a5(k,10,k)],e),B.A,B.u),k,k,k,new A.aK(10,0,10,0),k)],e)},
+f=f.cy
+return A.a([A.z(A.aQ(A.a([q,new A.a5(k,10,k),m,new A.a5(k,10,k),r,new A.a5(k,10,k),n,new A.a5(k,10,k),o,new A.a5(k,10,k),A.V(A.a([new A.a5(35,k,k),g,new A.a5(10,k,k),A.aQ(A.a([s,h,i,e,l,A.V(A.a([p,A.z(A.n("Kanan : "+A.h(f.y),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k),k,k,k,k,200),A.n("Kiri : "+A.h(f.x),A.m(k,k,k,k,k,k,k,k,k,B.j,k,k,11,k,B.t,k,!0,k,k,k,k),k)],d),B.A,B.u)],d),B.E,B.u)],d),B.E,B.u),new A.a5(k,10,k)],d),B.A,B.u),k,k,k,new A.aK(10,0,10,0),k)],d)},
 $S:12}
 A.aNS.prototype={
 $1(a){var s=null,r=A.bi(s,s)
